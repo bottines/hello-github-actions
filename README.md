@@ -1,5 +1,16 @@
-## Welcome to "Hello World" with GitHub Actions
+# GitHub Actions
 
-This course will walk you through writing your first action and using it with a workflow file. 
+## Concepts
 
-**Ready to get started? Navigate to the first issue.**
+A Workflow is a collection of Job(s), and each Job is a collection of Step(s).
+
+Actions can be sourced from within the same repository, from another public repository or from a published Docker container image.
+
+## Workflows
+
+### Triggers
+
+Execute the workflow anytime that code is pushed into your repository.
+```
+on: push
+```
